@@ -21,6 +21,7 @@ header {
     width: 380px;
     background-color: yellow;
     display: inline-block;
+    margin-right: none;
     
 }
 
@@ -30,20 +31,24 @@ header {
     width: 380px;
     background-color: green;
     display: inline-block;
+    margin-left: none;
+    padding: none;
 }
 
 #e {
     text-align: center;
     height: 190px;
-    width: 250px;
+    width: 200px;
     background-color: orangered;
     display: inline-block;
+    margin-left: 90px;
+    padding-left: none;
 }
 
 #f {
     text-align: center;
     height: 190px;
-    width: 250px;
+    width: 200px;
     background-color: mediumvioletred;
     display: inline-block;
 }
@@ -51,7 +56,7 @@ header {
 #g {
     text-align: center;
     height: 190px;
-    width: 250px;
+    width: 200px;
     background-color: mediumseagreen;
     display: inline-block;
 }
@@ -59,22 +64,25 @@ header {
 #h {
     text-align: center;
     height: 190px;
-    width: 250px;
+    width: 200px;
     background-color: rgb(208, 255, 0);
     display: inline-block;
 }
 
-footer {
+#i {
     text-align: center;
     width: 760px;
     height: 150px;
     background-color: rgb(47, 32, 178);
+    float: left;
+    margin-left: 0px;
+    padding: left;
 }
 
-@media all and (min-width: 400px) {
+/* @media all and (min-width: 400px) {
 
 }
 
 @media all and (min-width: 600px) and (max-width: 1000px) {
 
-}
+} */
